@@ -18,3 +18,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 // ROUTES
+app.get("/", (req, res) => {
+    res.send("Home route");
+})
+
+// SERVER
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`Server running on port ${port}`);
+})
