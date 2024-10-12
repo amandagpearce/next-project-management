@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import ProjectHeader from '@/app/projects/ProjectHeader';
 
 type Props = {
@@ -8,9 +8,9 @@ type Props = {
 };
 
 const Project = ({ params }: Props) => {
-  const { id } = params;
+  // const { id } = params;
   const [activeTab, setActiveTab] = useState('Board');
-  const [isModalNewTaskOpen, setIsModalNewTaskOpen] = useState(false);
+  // const [isModalNewTaskOpen, setIsModalNewTaskOpen] = useState(false);
 
   return (
     <div>
