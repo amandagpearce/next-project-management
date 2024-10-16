@@ -15,7 +15,7 @@ const Project = ({ params }: Props) => {
   return (
     <div>
       {/* Modal new task */}
-      <ProjectHeader activeTab={activeTab} setActivateTab={setActiveTab} />
+      <ProjectHeader activeTab={activeTab} setActiveTab={setActiveTab} />
     </div>
   );
 };
