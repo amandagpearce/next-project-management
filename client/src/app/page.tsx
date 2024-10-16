@@ -1,5 +1,5 @@
-import DashboardWrapper from './dashboardWrapper';
+import HomePage from './home/page';
 
 export default function Home() {
-  return <DashboardWrapper></DashboardWrapper>;
+  return <HomePage />;
 }
